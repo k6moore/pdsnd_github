@@ -6,9 +6,9 @@ US Bikeshare Analysis
 
 ### Description
 The Bikeshare Analysis project provides users statistical data (on their request) for US bikeshare systems for 3 major cities: 
-* Chicago
-* Washington 
-* New York City
+1. Chicago
+2. New York City
+3. Washington 
 
 ### Files used
 * bikeshare.py
