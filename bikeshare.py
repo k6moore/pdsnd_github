@@ -180,11 +180,11 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth (if applicable)
     try:
         earliest_year = df['Birth Year'].min()
-        latest_year = df['Birth Year'].max()
+        most_recent_year = df['Birth Year'].max()
         common_year = df['Birth Year'].mode()[0]
         print('\nYear of Birth Statistics: \n')
         print('\nEarliest Year of Birth: \n',earliest_year)
-        print('\nMost Recent Year of Birth: \n',latest_year)
+        print('\nMost Recent Year of Birth: \n',most_recent_year)
         print('\nMost Common Year of Birth: \n',common_year)
     except KeyError:
         print('\nYear of Birth Statistics: \n')
